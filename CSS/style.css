@@ -1,0 +1,129 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    
+}
+body{
+    background: url(empanadas.jpeg);
+    background-size: 100%;
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px rgb(0, 0, 0) solid;
+    background-color: burlywood;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+aside{
+    border: 5px solid black;
+    background-color: #deb887;
+    float: left;
+    width: 200px;
+    height: 620px;
+    font-size: 20px;
+    color:black;
+}
+main{
+    border: 5px solid black;
+    float:left
+    
+}
+.menu{
+    
+    list-style: none;
+    padding: auto;
+    background-color:black;
+    height: 50px;
+    border: 5px solid black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.menupagina{
+    border: 5px solid black;
+    background: url(../IMG/empanadas.jpeg);
+    background-size: 100%; 
+    float:left; 
+    text-align: center;
+   
+}
+.menupagina p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    font-size: larger;
+    text-align: justify;
+
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li a:hover{
+    background-color: coral;
+}
+.maincontacto{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid black;
+    background-color: burlywood;
+    float: center;
+    width: 1323px;
+    height: 80px;
+}
+.maincontacto form{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    text-align: center;
+   
+    width: 1323px;
+    height: 500px;
+}
+
+.pdf{
+    color: black;
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+footer{
+
+    border: 5px solid black;
+    color:white;
+    text-align: center;
+    background-color: #00000080;
+    font-family:Arial, Helvetica, sans-serif;
+}
